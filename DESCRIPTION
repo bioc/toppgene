@@ -31,8 +31,8 @@ biocViews:
     Proteomics,
     Software,
     ThirdPartyClient
-URL: https://github.com/ImmunoSystems-lab/toppgene
-BugReports: https://github.com/ImmunoSystems-lab/toppgene/issues
+URL: https://github.com/ImmuSystems-lab/toppgene
+BugReports: https://github.com/ImmuSystems-lab/toppgene/issues
 Depends: 
     R (>= 4.6.0)
 Encoding: UTF-8

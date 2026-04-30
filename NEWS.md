@@ -1,5 +1,18 @@
 <!-- markdownlint-disable MD024 MD025 -->
 
+# toppgene 1.0.1 (2026-04-30)
+
+## Bug fixes and improvements
+
+- Backport fix from 1.1.1 of GitHub organization typo in URLs of the
+  `DESCRIPTION` file.
+
+# toppgene 1.0.0 (2026-04-28)
+
+## Significant user-visible changes
+
+- Stable release for Bioconductor 3.23.
+
 # toppgene 0.99.2 (2026-02-16)
 
 ## Bug fixes and improvements

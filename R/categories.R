@@ -276,7 +276,10 @@ setMethod(
     "CategoriesDataFrame",
     function(x, ...) {
         y <- x
-        y <- callNextMethod(y, ...)
+        ## callNextMethod no longer calls our intended subset(), so explicitly
+        ## choose the superclass method to call.
+        f <- getMethod("subset", "RectangularData")
+        y <- f(x, ...)
         validObject(y)
         x <- y
     })

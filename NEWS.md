@@ -1,5 +1,18 @@
 <!-- markdownlint-disable MD024 MD025 -->
 
+# toppgene 1.1.2 (2026-07-29)
+
+## Bug fixes and improvements
+
+- Fix dispatch of `subset()` for the `CategoriesDataFrame` object to the
+  appropriate superclass method.  This addresses the failing unit test in
+  `test`s4classes.R` named "CategoriesDataFrame checks <- validity" with the
+  error message of:
+
+   > Error in `match.call(sys.function(which),
+   > sys.call(which), expand.dots = FALSE, envir = sys.frame(parents[which]))`:
+   > invalid 'definition' argument`
+
 # toppgene 1.1.1 (2026-04-29)
 
 ## Bug fixes and improvements

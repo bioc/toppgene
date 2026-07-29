@@ -1,11 +1,12 @@
 #' @importFrom httr2 req_body_raw req_headers req_perform req_perform_parallel
-#'     req_retry req_throttle req_url_path_append request resp_body_xml
+#' @importFrom httr2 req_retry req_throttle req_url_path_append request
+#' @importFrom httr2 resp_body_xml
 #' @importFrom purrr list_transpose
 #' @importFrom readr read_tsv
 #' @importFrom S4Vectors DataFrame endoapply List merge
 #' @importFrom stats setNames
 #' @importFrom xml2 as_xml_document xml_add_child xml_attr xml_dtd
-#'     xml_find_first xml_new_root xml_text
+#' @importFrom xml2 xml_find_first xml_new_root xml_text
 NULL
 
 url_pubchem <- function() {

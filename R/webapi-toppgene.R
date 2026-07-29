@@ -1,7 +1,7 @@
 #' @importFrom BiocFileCache bfcadd bfcquery bfcremove bfcrid bfcrpath
-#'     BiocFileCache
+#' @importFrom BiocFileCache BiocFileCache
 #' @importFrom httr2 req_body_json req_perform req_url_path_append
-#'     request resp_body_json resp_body_raw
+#' @importFrom httr2 request resp_body_json resp_body_raw
 #' @importFrom IRanges CharacterList IntegerList
 #' @importFrom jsonlite unbox
 #' @importFrom purrr list_transpose

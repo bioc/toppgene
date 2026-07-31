@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD024 MD025 -->
 
-# toppgene 1.1.2 (2026-07-29)
+# toppgene 1.1.2 (2026-07-31)
 
 ## Bug fixes and improvements
 
@@ -12,6 +12,11 @@
    > Error in `match.call(sys.function(which),
    > sys.call(which), expand.dots = FALSE, envir = sys.frame(parents[which]))`:
    > invalid 'definition' argument`
+
+- GitHub Actions CI fix of BiocCheck failing on
+  `libgit2::git_repository_open_ext()`.  Add global config `safe.directory` of
+  the existing cloned package to be checked, identical to the command run in
+  "Checkout this git repository" CI step.
 
 # toppgene 1.1.1 (2026-04-29)
 

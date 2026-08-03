@@ -18,6 +18,14 @@
   the existing cloned package to be checked, identical to the command run in
   "Checkout this git repository" CI step.
 
+# toppgene 1.0.2 (2026-08-03)
+
+## Bug fixes and improvements
+
+- Backport fixes from 1.1.2 for `CategoriesDataFrame` dispatch of `subset()`
+  method (24c42a9) and for git repo ownership for `BiocCheck()` during GitHub
+  Actions (9659a0c).
+
 # toppgene 1.1.1 (2026-04-29)
 
 ## Bug fixes and improvements

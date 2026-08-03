@@ -1,6 +1,6 @@
 Package: toppgene
 Title: Gene List Enrichment Analysis using the ToppGene Suite
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: c(
     person("Pariksheet Nanda",
            email = "pan79@pitt.edu",

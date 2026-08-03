@@ -83,4 +83,13 @@ jobs:
       - name: Check Bioc
         shell: Rscript {0}
         run: |
+          package <- BiocCheck:::.BiocPackage$initialize(
+              packageDir = normalizePath("."),
+              checkDir = dirname("."))
+          system2(
+              "/usr/bin/git",
+              c(
+                  "config",
+                  "--global",
+                  "--add", "safe.directory", package$sourceDir))
           BiocCheck::BiocCheck()
